@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "clean:reports": "rimraf .features-gen playwright-report test-results reports/json reports/html-reports",
+    "clean:reports": "rimraf .features-gen playwright-report test-results reports/json reports/html-report",
     "test:cucumber": "cucumber-js",
     "test:bdd": "bddgen && playwright test",
     "test:imperativo": "bddgen --tags @imperativo && playwright test",

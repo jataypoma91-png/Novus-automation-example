@@ -1,0 +1,138 @@
+name: Playwright Pages
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+jobs:
+  test-and-deploy:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    steps:
+      - name: Descargar código
+        uses: actions/checkout@v4
+
+      - name: Configurar Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      - name: Instalar dependencias
+        run: npm ci
+
+      - name: Instalar browsers de Playwright
+        run: npx playwright install --with-deps
+
+      # ==========================================================
+      # EJECUTAR PRUEBAS
+      # ==========================================================
+      - name: Ejecutar pruebas Cucumber
+        id: tests
+        continue-on-error: true
+        run: npm run test:browsers
+        env:
+          CI: true
+
+      # ==========================================================
+      # VERIFICAR RESULTADOS
+      # ==========================================================
+      - name: Verificar reportes generados
+        if: always()
+        run: |
+          echo "======================================"
+          echo "ESTRUCTURA DE REPORTS"
+          echo "======================================"
+
+          if [ -d "reports" ]; then
+            find reports -maxdepth 3 -type f | sort
+          else
+            echo "No existe la carpeta reports"
+          fi
+
+      # ==========================================================
+      # ASEGURAR QUE EXISTA EL DIRECTORIO DEL REPORTE
+      # ==========================================================
+      - name: Preparar reporte para GitHub Pages
+        if: always()
+        run: |
+          mkdir -p reports/html-report
+
+          if [ -z "$(find reports/html-report -mindepth 1 -print -quit 2>/dev/null)" ]; then
+            echo "No se encontró reporte HTML de Cucumber."
+            echo "Generando página de respaldo..."
+
+            cat > reports/html-report/index.html <<'EOF'
+          <!DOCTYPE html>
+          <html lang="es">
+          <head>
+            <meta charset="UTF-8">
+            <title>Reporte de pruebas</title>
+          </head>
+          <body>
+            <h1>Reporte de pruebas</h1>
+            <p>No se pudo generar el reporte HTML de Cucumber.</p>
+            <p>Revisa los logs de GitHub Actions para conocer el motivo.</p>
+          </body>
+          </html>
+          EOF
+          else
+            echo "Reporte HTML encontrado correctamente."
+          fi
+
+          echo "======================================"
+          echo "CONTENIDO DEL REPORTE"
+          echo "======================================"
+
+          find reports/html-report -maxdepth 2 -type f | sort
+
+      # ==========================================================
+      # CONFIGURAR GITHUB PAGES
+      # ==========================================================
+      - name: Configurar GitHub Pages
+        if: always()
+        uses: actions/configure-pages@v5
+
+      # ==========================================================
+      # SUBIR REPORTE
+      # ==========================================================
+      - name: Subir reporte a Pages
+        if: always()
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: reports/html-report
+
+      # ==========================================================
+      # PUBLICAR GITHUB PAGES
+      # ==========================================================
+      - name: Publicar GitHub Pages
+        id: deployment
+        if: always()
+        uses: actions/deploy-pages@v4
+
+      # ==========================================================
+      # MOSTRAR RESULTADO DE LAS PRUEBAS
+      # ==========================================================
+      - name: Resultado final de las pruebas
+        if: always()
+        run: |
+          if [ "${{ steps.tests.outcome }}" = "failure" ]; then
+            echo "======================================"
+            echo "❌ LAS PRUEBAS FALLARON"
+            echo "======================================"
+            echo "El reporte fue publicado en GitHub Pages."
+            exit 1
+          else
+            echo "======================================"
+            echo "✅ TODAS LAS PRUEBAS FINALIZARON CORRECTAMENTE"
