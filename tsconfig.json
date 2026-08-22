@@ -1,0 +1,10 @@
+{
+ "compilerOptions": {
+   "module": "commonjs",
+   "target": "ES6",
+   "strict": false,
+   "esModuleInterop": true,
+   "resolveJsonModule": true
+ },
+ "include": ["tests/**/*.ts"]
+}

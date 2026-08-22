@@ -1,0 +1,2196 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "carga-de-documento;cargar-tres-documentos",
+        "keyword": "Scenario Outline",
+        "line": 27,
+        "name": "Cargar tres documentos",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 16,
+            "name": "accedo a la web de carga de documentos",
+            "result": {
+              "status": "failed",
+              "duration": 656000000,
+              "error_message": "Error: page.goto: net::ERR_NAME_NOT_RESOLVED at https://endorsed-david-terminology-serum.trycloudflare.com/\nCall log:\n  - navigating to \"https://endorsed-david-terminology-serum.trycloudflare.com/\", waiting until \"load\"\n\n   at ..\\tests\\pages\\cargar.page.ts:50\n\n  48 |\n  49 |     async acceder() {\n> 50 |         await this.page.goto(this.url);\n     |                         ^\n  51 |     }\n  52 |\n  53 |     async darClickEnExaminar() {\n\n    at CargarPage.acceder (C:\\Users\\User\\Downloads\\Proyecto2\\tests\\pages\\cargar.page.ts:50:25)\n    at Object.<anonymous> (C:\\Users\\User\\Downloads\\Proyecto2\\tests\\steps\\cargar.step.ts:7:22)\n    at C:\\Users\\User\\Downloads\\Proyecto2\\.features-gen\\tests\\features\\cargarDocumento.feature.spec.js:29:7"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 17,
+            "name": "doy click en examinar",
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 18,
+            "name": "elijo el archivo \"pantalla.png\" y selecciono el documento",
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 19,
+            "name": "se carga el nombre del documento \"pantalla.png\" en el titulo",
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 20,
+            "name": "puedo dar click en cargar",
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 21,
+            "name": "se muestra el mensaje de archivo cargado \"pantalla.png\"",
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 22,
+            "name": "se muestra el nombre del documento \"pantalla.png\"",
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1599000000
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@carga",
+            "line": 14
+          }
+        ],
+        "type": "scenario",
+        "retried": 0
+      },
+      {
+        "description": "",
+        "id": "carga-de-documento;cargar-tres-documentos",
+        "keyword": "Scenario Outline",
+        "line": 26,
+        "name": "Cargar tres documentos",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 16,
+            "name": "accedo a la web de carga de documentos",
+            "result": {
+              "status": "failed",
+              "duration": 208000000,
+              "error_message": "Error: page.goto: net::ERR_NAME_NOT_RESOLVED at https://endorsed-david-terminology-serum.trycloudflare.com/\nCall log:\n  - navigating to \"https://endorsed-david-terminology-serum.trycloudflare.com/\", waiting until \"load\"\n\n   at ..\\tests\\pages\\cargar.page.ts:50\n\n  48 |\n  49 |     async acceder() {\n> 50 |         await this.page.goto(this.url);\n     |                         ^\n  51 |     }\n  52 |\n  53 |     async darClickEnExaminar() {\n\n    at CargarPage.acceder (C:\\Users\\User\\Downloads\\Proyecto2\\tests\\pages\\cargar.page.ts:50:25)\n    at Object.<anonymous> (C:\\Users\\User\\Downloads\\Proyecto2\\tests\\steps\\cargar.step.ts:7:22)\n    at C:\\Users\\User\\Downloads\\Proyecto2\\.features-gen\\tests\\features\\cargarDocumento.feature.spec.js:19:7"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 17,
+            "name": "doy click en examinar",
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 18,
+            "name": "elijo el archivo \"firma.png\" y selecciono el documento",
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 19,
+            "name": "se carga el nombre del documento \"firma.png\" en el titulo",
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 20,
+            "name": "puedo dar click en cargar",
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 21,
+            "name": "se muestra el mensaje de archivo cargado \"firma.png\"",
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 22,
+            "name": "se muestra el nombre del documento \"firma.png\"",
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1483000000
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@carga",
+            "line": 14
+          }
+        ],
+        "type": "scenario",
+        "retried": 0
+      },
+      {
+        "description": "",
+        "id": "carga-de-documento;cargar-un-documento",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "Cargar un documento",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "accedo a la web de carga de documentos",
+            "result": {
+              "status": "failed",
+              "duration": 4113000000,
+              "error_message": "Error: page.goto: net::ERR_NAME_NOT_RESOLVED at https://endorsed-david-terminology-serum.trycloudflare.com/\nCall log:\n  - navigating to \"https://endorsed-david-terminology-serum.trycloudflare.com/\", waiting until \"load\"\n\n   at ..\\tests\\pages\\cargar.page.ts:50\n\n  48 |\n  49 |     async acceder() {\n> 50 |         await this.page.goto(this.url);\n     |                         ^\n  51 |     }\n  52 |\n  53 |     async darClickEnExaminar() {\n\n    at CargarPage.acceder (C:\\Users\\User\\Downloads\\Proyecto2\\tests\\pages\\cargar.page.ts:50:25)\n    at Object.<anonymous> (C:\\Users\\User\\Downloads\\Proyecto2\\tests\\steps\\cargar.step.ts:7:22)\n    at C:\\Users\\User\\Downloads\\Proyecto2\\.features-gen\\tests\\features\\cargarDocumento.feature.spec.js:7:5"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "doy click en examinar",
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "elijo el archivo \"jorge-paz.png\" y selecciono el documento",
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "se carga el nombre del documento \"jorge-paz.png\" en el titulo",
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "puedo dar click en cargar",
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "se muestra el mensaje de archivo cargado \"jorge-paz.png\"",
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "se muestra el nombre del documento \"jorge-paz.png\"",
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1659000000
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario",
+        "retried": 0
+      },
+      {
+        "description": "",
+        "id": "carga-de-documento;cargar-un-documento",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "Cargar un documento",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "accedo a la web de carga de documentos",
+            "result": {
+              "status": "failed",
+              "duration": 191000000,
+              "error_message": "Error: page.goto: NS_ERROR_UNKNOWN_HOST\nCall log:\n  - navigating to \"https://endorsed-david-terminology-serum.trycloudflare.com/\", waiting until \"load\"\n\n   at ..\\tests\\pages\\cargar.page.ts:50\n\n  48 |\n  49 |     async acceder() {\n> 50 |         await this.page.goto(this.url);\n     |                         ^\n  51 |     }\n  52 |\n  53 |     async darClickEnExaminar() {\n\n    at CargarPage.acceder (C:\\Users\\User\\Downloads\\Proyecto2\\tests\\pages\\cargar.page.ts:50:25)\n    at Object.<anonymous> (C:\\Users\\User\\Downloads\\Proyecto2\\tests\\steps\\cargar.step.ts:7:22)\n    at C:\\Users\\User\\Downloads\\Proyecto2\\.features-gen\\tests\\features\\cargarDocumento.feature.spec.js:7:5"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "doy click en examinar",
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "elijo el archivo \"jorge-paz.png\" y selecciono el documento",
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "se carga el nombre del documento \"jorge-paz.png\" en el titulo",
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "puedo dar click en cargar",
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "se muestra el mensaje de archivo cargado \"jorge-paz.png\"",
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "se muestra el nombre del documento \"jorge-paz.png\"",
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 2073000000
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario",
+        "retried": 0
+      },
+      {
+        "description": "",
+        "id": "carga-de-documento;cargar-tres-documentos",
+        "keyword": "Scenario Outline",
+        "line": 26,
+        "name": "Cargar tres documentos",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 16,
+            "name": "accedo a la web de carga de documentos",
+            "result": {
+              "status": "failed",
+              "duration": 223000000,
+              "error_message": "Error: page.goto: NS_ERROR_UNKNOWN_HOST\nCall log:\n  - navigating to \"https://endorsed-david-terminology-serum.trycloudflare.com/\", waiting until \"load\"\n\n   at ..\\tests\\pages\\cargar.page.ts:50\n\n  48 |\n  49 |     async acceder() {\n> 50 |         await this.page.goto(this.url);\n     |                         ^\n  51 |     }\n  52 |\n  53 |     async darClickEnExaminar() {\n\n    at CargarPage.acceder (C:\\Users\\User\\Downloads\\Proyecto2\\tests\\pages\\cargar.page.ts:50:25)\n    at Object.<anonymous> (C:\\Users\\User\\Downloads\\Proyecto2\\tests\\steps\\cargar.step.ts:7:22)\n    at C:\\Users\\User\\Downloads\\Proyecto2\\.features-gen\\tests\\features\\cargarDocumento.feature.spec.js:19:7"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 17,
+            "name": "doy click en examinar",
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 18,
+            "name": "elijo el archivo \"firma.png\" y selecciono el documento",
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 19,
+            "name": "se carga el nombre del documento \"firma.png\" en el titulo",
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 20,
+            "name": "puedo dar click en cargar",
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 21,
+            "name": "se muestra el mensaje de archivo cargado \"firma.png\"",
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 22,
+            "name": "se muestra el nombre del documento \"firma.png\"",
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 2079000000
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@carga",
+            "line": 14
+          }
+        ],
+        "type": "scenario",
+        "retried": 0
+      },
+      {
+        "description": "",
+        "id": "carga-de-documento;cargar-tres-documentos",
+        "keyword": "Scenario Outline",
+        "line": 27,
+        "name": "Cargar tres documentos",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 16,
+            "name": "accedo a la web de carga de documentos",
+            "result": {
+              "status": "failed",
+              "duration": 218000000,
+              "error_message": "Error: page.goto: NS_ERROR_UNKNOWN_HOST\nCall log:\n  - navigating to \"https://endorsed-david-terminology-serum.trycloudflare.com/\", waiting until \"load\"\n\n   at ..\\tests\\pages\\cargar.page.ts:50\n\n  48 |\n  49 |     async acceder() {\n> 50 |         await this.page.goto(this.url);\n     |                         ^\n  51 |     }\n  52 |\n  53 |     async darClickEnExaminar() {\n\n    at CargarPage.acceder (C:\\Users\\User\\Downloads\\Proyecto2\\tests\\pages\\cargar.page.ts:50:25)\n    at Object.<anonymous> (C:\\Users\\User\\Downloads\\Proyecto2\\tests\\steps\\cargar.step.ts:7:22)\n    at C:\\Users\\User\\Downloads\\Proyecto2\\.features-gen\\tests\\features\\cargarDocumento.feature.spec.js:29:7"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 17,
+            "name": "doy click en examinar",
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 18,
+            "name": "elijo el archivo \"pantalla.png\" y selecciono el documento",
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 19,
+            "name": "se carga el nombre del documento \"pantalla.png\" en el titulo",
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 20,
+            "name": "puedo dar click en cargar",
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 21,
+            "name": "se muestra el mensaje de archivo cargado \"pantalla.png\"",
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 22,
+            "name": "se muestra el nombre del documento \"pantalla.png\"",
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 3215000000
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@carga",
+            "line": 14
+          }
+        ],
+        "type": "scenario",
+        "retried": 0
+      },
+      {
+        "description": "",
+        "id": "carga-de-documento;cargar-un-documento",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "Cargar un documento",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "accedo a la web de carga de documentos",
+            "result": {
+              "status": "failed",
+              "duration": 254000000,
+              "error_message": "Error: page.goto: Could not resolve hostname\nCall log:\n  - navigating to \"https://endorsed-david-terminology-serum.trycloudflare.com/\", waiting until \"load\"\n\n   at ..\\tests\\pages\\cargar.page.ts:50\n\n  48 |\n  49 |     async acceder() {\n> 50 |         await this.page.goto(this.url);\n     |                         ^\n  51 |     }\n  52 |\n  53 |     async darClickEnExaminar() {\n\n    at CargarPage.acceder (C:\\Users\\User\\Downloads\\Proyecto2\\tests\\pages\\cargar.page.ts:50:25)\n    at Object.<anonymous> (C:\\Users\\User\\Downloads\\Proyecto2\\tests\\steps\\cargar.step.ts:7:22)\n    at C:\\Users\\User\\Downloads\\Proyecto2\\.features-gen\\tests\\features\\cargarDocumento.feature.spec.js:7:5"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "doy click en examinar",
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "elijo el archivo \"jorge-paz.png\" y selecciono el documento",
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "se carga el nombre del documento \"jorge-paz.png\" en el titulo",
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "puedo dar click en cargar",
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "se muestra el mensaje de archivo cargado \"jorge-paz.png\"",
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "se muestra el nombre del documento \"jorge-paz.png\"",
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 161000000
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario",
+        "retried": 0
+      },
+      {
+        "description": "",
+        "id": "carga-de-documento;cargar-tres-documentos",
+        "keyword": "Scenario Outline",
+        "line": 26,
+        "name": "Cargar tres documentos",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 16,
+            "name": "accedo a la web de carga de documentos",
+            "result": {
+              "status": "failed",
+              "duration": 546000000,
+              "error_message": "Error: page.goto: Could not resolve hostname\nCall log:\n  - navigating to \"https://endorsed-david-terminology-serum.trycloudflare.com/\", waiting until \"load\"\n\n   at ..\\tests\\pages\\cargar.page.ts:50\n\n  48 |\n  49 |     async acceder() {\n> 50 |         await this.page.goto(this.url);\n     |                         ^\n  51 |     }\n  52 |\n  53 |     async darClickEnExaminar() {\n\n    at CargarPage.acceder (C:\\Users\\User\\Downloads\\Proyecto2\\tests\\pages\\cargar.page.ts:50:25)\n    at Object.<anonymous> (C:\\Users\\User\\Downloads\\Proyecto2\\tests\\steps\\cargar.step.ts:7:22)\n    at C:\\Users\\User\\Downloads\\Proyecto2\\.features-gen\\tests\\features\\cargarDocumento.feature.spec.js:19:7"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 17,
+            "name": "doy click en examinar",
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 18,
+            "name": "elijo el archivo \"firma.png\" y selecciono el documento",
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 19,
+            "name": "se carga el nombre del documento \"firma.png\" en el titulo",
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 20,
+            "name": "puedo dar click en cargar",
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 21,
+            "name": "se muestra el mensaje de archivo cargado \"firma.png\"",
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 22,
+            "name": "se muestra el nombre del documento \"firma.png\"",
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 236000000
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@carga",
+            "line": 14
+          }
+        ],
+        "type": "scenario",
+        "retried": 0
+      },
+      {
+        "description": "",
+        "id": "carga-de-documento;cargar-tres-documentos",
+        "keyword": "Scenario Outline",
+        "line": 27,
+        "name": "Cargar tres documentos",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 16,
+            "name": "accedo a la web de carga de documentos",
+            "result": {
+              "status": "failed",
+              "duration": 173000000,
+              "error_message": "Error: page.goto: Could not resolve hostname\nCall log:\n  - navigating to \"https://endorsed-david-terminology-serum.trycloudflare.com/\", waiting until \"load\"\n\n   at ..\\tests\\pages\\cargar.page.ts:50\n\n  48 |\n  49 |     async acceder() {\n> 50 |         await this.page.goto(this.url);\n     |                         ^\n  51 |     }\n  52 |\n  53 |     async darClickEnExaminar() {\n\n    at CargarPage.acceder (C:\\Users\\User\\Downloads\\Proyecto2\\tests\\pages\\cargar.page.ts:50:25)\n    at Object.<anonymous> (C:\\Users\\User\\Downloads\\Proyecto2\\tests\\steps\\cargar.step.ts:7:22)\n    at C:\\Users\\User\\Downloads\\Proyecto2\\.features-gen\\tests\\features\\cargarDocumento.feature.spec.js:29:7"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 17,
+            "name": "doy click en examinar",
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 18,
+            "name": "elijo el archivo \"pantalla.png\" y selecciono el documento",
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 19,
+            "name": "se carga el nombre del documento \"pantalla.png\" en el titulo",
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 20,
+            "name": "puedo dar click en cargar",
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 21,
+            "name": "se muestra el mensaje de archivo cargado \"pantalla.png\"",
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 22,
+            "name": "se muestra el nombre del documento \"pantalla.png\"",
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 238000000
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@carga",
+            "line": 14
+          }
+        ],
+        "type": "scenario",
+        "retried": 0
+      }
+    ],
+    "id": "chromium-›-carga-de-documento",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Carga de documento",
+    "tags": [],
+    "uri": "tests\\features\\cargarDocumento.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "registro-de-formulario-novus-technology;completar-los-datos-en-el-formulario-correctamente",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "Completar los datos en el formulario correctamente",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "accedo a la web de registro de Novus Technology",
+            "result": {
+              "status": "passed",
+              "duration": 2028000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "Digito mis nombres",
+            "result": {
+              "status": "failed",
+              "duration": 26224000000,
+              "error_message": "Error: locator.fill: Test timeout of 30000ms exceeded.\nCall log:\n  - waiting for locator('#nombre')\n\n   at ..\\tests\\pages\\text.page.ts:36\n\n  34 |   // Acciones públicas\n  35 |   async ingresarNombres(nombres: string) {\n> 36 |     await this.campoNombres().fill(nombres);\n     |                               ^\n  37 |   }\n  38 |\n  39 |   async ingresarApellidos(apellidos: string) {\n\n    at TextPage.ingresarNombres (C:\\Users\\User\\Downloads\\Proyecto2\\tests\\pages\\text.page.ts:36:31)\n    at Object.<anonymous> (C:\\Users\\User\\Downloads\\Proyecto2\\tests\\steps\\formulario.step.ts:16:20)\n    at C:\\Users\\User\\Downloads\\Proyecto2\\.features-gen\\tests\\features\\formulario.feature.spec.js:8:5"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "apellidos",
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "Selecciono los pasatiempos que me caracterizan",
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "Selecciono al género que pertenezco",
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "Digito mi Numero de Telefono",
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "Digito mi Correo Electrónico",
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 13,
+            "name": "Selecciono Departamento de nacimiento",
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 14,
+            "name": "Selecciono Ciudad de nacimiento",
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 15,
+            "name": "Selecciono alguna opción de Comandos de Selenium",
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 16,
+            "name": "Cargo un documento",
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 17,
+            "name": "Presiono en botón Enviar",
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "failed",
+              "duration": 128000000,
+              "error_message": "Test timeout of 30000ms exceeded."
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@declarativo",
+            "line": 3
+          }
+        ],
+        "type": "scenario",
+        "retried": 0
+      },
+      {
+        "description": "",
+        "id": "registro-de-formulario-novus-technology;completar-los-datos-en-el-formulario-correctamente",
+        "keyword": "Scenario Outline",
+        "line": 36,
+        "name": "Completar los datos en el formulario correctamente",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 21,
+            "name": "accedo a la web de registro de Novus Technology",
+            "result": {
+              "status": "passed",
+              "duration": 1422000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 22,
+            "name": "Digito mis \"Jorge\"",
+            "result": {
+              "status": "failed",
+              "duration": 28424000000,
+              "error_message": "Error: locator.fill: Test timeout of 30000ms exceeded.\nCall log:\n  - waiting for locator('#nombre')\n\n   at ..\\tests\\pages\\text.page.ts:36\n\n  34 |   // Acciones públicas\n  35 |   async ingresarNombres(nombres: string) {\n> 36 |     await this.campoNombres().fill(nombres);\n     |                               ^\n  37 |   }\n  38 |\n  39 |   async ingresarApellidos(apellidos: string) {\n\n    at TextPage.ingresarNombres (C:\\Users\\User\\Downloads\\Proyecto2\\tests\\pages\\text.page.ts:36:31)\n    at Object.<anonymous> (C:\\Users\\User\\Downloads\\Proyecto2\\tests\\steps\\formulario.step.ts:96:20)\n    at C:\\Users\\User\\Downloads\\Proyecto2\\.features-gen\\tests\\features\\formulario.feature.spec.js:40:7"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 23,
+            "name": "apellidos \"Perez\"",
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 24,
+            "name": "Selecciono los pasatiempos que me caracterizan",
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 25,
+            "name": "Selecciono al género que pertenezco",
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 26,
+            "name": "Digito mi Numero de Telefono \"1234567890\"",
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 27,
+            "name": "Digito mi Correo Electrónico \"jorge@example.com\"",
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 28,
+            "name": "Selecciono Departamento de nacimiento \"LIMA\"",
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 29,
+            "name": "Selecciono Ciudad de nacimiento \"LIMA\"",
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 30,
+            "name": "Selecciono alguna opción de Comandos de Selenium \"Wait Commands\"",
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 31,
+            "name": "Cargo un documento con el nombre \"pantalla.png\"",
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 32,
+            "name": "Presiono en botón Enviar",
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "failed",
+              "duration": 956000000,
+              "error_message": "Test timeout of 30000ms exceeded."
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@outline",
+            "line": 19
+          }
+        ],
+        "type": "scenario",
+        "retried": 0
+      },
+      {
+        "description": "",
+        "id": "registro-de-formulario-novus-technology;completar-los-datos-en-el-formulario-correctamente",
+        "keyword": "Scenario Outline",
+        "line": 35,
+        "name": "Completar los datos en el formulario correctamente",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 21,
+            "name": "accedo a la web de registro de Novus Technology",
+            "result": {
+              "status": "passed",
+              "duration": 1820000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 22,
+            "name": "Digito mis \"Juan\"",
+            "result": {
+              "status": "failed",
+              "duration": 27474000000,
+              "error_message": "Error: locator.fill: Test timeout of 30000ms exceeded.\nCall log:\n  - waiting for locator('#nombre')\n\n   at ..\\tests\\pages\\text.page.ts:36\n\n  34 |   // Acciones públicas\n  35 |   async ingresarNombres(nombres: string) {\n> 36 |     await this.campoNombres().fill(nombres);\n     |                               ^\n  37 |   }\n  38 |\n  39 |   async ingresarApellidos(apellidos: string) {\n\n    at TextPage.ingresarNombres (C:\\Users\\User\\Downloads\\Proyecto2\\tests\\pages\\text.page.ts:36:31)\n    at Object.<anonymous> (C:\\Users\\User\\Downloads\\Proyecto2\\tests\\steps\\formulario.step.ts:96:20)\n    at C:\\Users\\User\\Downloads\\Proyecto2\\.features-gen\\tests\\features\\formulario.feature.spec.js:25:7"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 23,
+            "name": "apellidos \"Perez\"",
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 24,
+            "name": "Selecciono los pasatiempos que me caracterizan",
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 25,
+            "name": "Selecciono al género que pertenezco",
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 26,
+            "name": "Digito mi Numero de Telefono \"1234567890\"",
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 27,
+            "name": "Digito mi Correo Electrónico \"juan@example.com\"",
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 28,
+            "name": "Selecciono Departamento de nacimiento \"LIMA\"",
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 29,
+            "name": "Selecciono Ciudad de nacimiento \"LIMA\"",
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 30,
+            "name": "Selecciono alguna opción de Comandos de Selenium \"Wait Commands\"",
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 31,
+            "name": "Cargo un documento con el nombre \"firma.png\"",
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 32,
+            "name": "Presiono en botón Enviar",
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "failed",
+              "duration": 463000000,
+              "error_message": "Test timeout of 30000ms exceeded."
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@outline",
+            "line": 19
+          }
+        ],
+        "type": "scenario",
+        "retried": 0
+      },
+      {
+        "description": "",
+        "id": "registro-de-formulario-novus-technology;completar-los-datos-en-el-formulario-correctamente",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "Completar los datos en el formulario correctamente",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "accedo a la web de registro de Novus Technology",
+            "result": {
+              "status": "passed",
+              "duration": 2232000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "Digito mis nombres",
+            "result": {
+              "status": "failed",
+              "duration": 25358000000,
+              "error_message": "Error: locator.fill: Test timeout of 30000ms exceeded.\nCall log:\n  - waiting for locator('#nombre')\n\n   at ..\\tests\\pages\\text.page.ts:36\n\n  34 |   // Acciones públicas\n  35 |   async ingresarNombres(nombres: string) {\n> 36 |     await this.campoNombres().fill(nombres);\n     |                               ^\n  37 |   }\n  38 |\n  39 |   async ingresarApellidos(apellidos: string) {\n\n    at TextPage.ingresarNombres (C:\\Users\\User\\Downloads\\Proyecto2\\tests\\pages\\text.page.ts:36:31)\n    at Object.<anonymous> (C:\\Users\\User\\Downloads\\Proyecto2\\tests\\steps\\formulario.step.ts:16:20)\n    at C:\\Users\\User\\Downloads\\Proyecto2\\.features-gen\\tests\\features\\formulario.feature.spec.js:8:5"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "apellidos",
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "Selecciono los pasatiempos que me caracterizan",
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "Selecciono al género que pertenezco",
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "Digito mi Numero de Telefono",
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "Digito mi Correo Electrónico",
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 13,
+            "name": "Selecciono Departamento de nacimiento",
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 14,
+            "name": "Selecciono Ciudad de nacimiento",
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 15,
+            "name": "Selecciono alguna opción de Comandos de Selenium",
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 16,
+            "name": "Cargo un documento",
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 17,
+            "name": "Presiono en botón Enviar",
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "failed",
+              "duration": 433000000,
+              "error_message": "Test timeout of 30000ms exceeded."
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@declarativo",
+            "line": 3
+          }
+        ],
+        "type": "scenario",
+        "retried": 0
+      },
+      {
+        "description": "",
+        "id": "registro-de-formulario-novus-technology;completar-los-datos-en-el-formulario-correctamente",
+        "keyword": "Scenario Outline",
+        "line": 35,
+        "name": "Completar los datos en el formulario correctamente",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 21,
+            "name": "accedo a la web de registro de Novus Technology",
+            "result": {
+              "status": "passed",
+              "duration": 13448000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 22,
+            "name": "Digito mis \"Juan\"",
+            "result": {
+              "status": "failed",
+              "duration": 11778000000,
+              "error_message": "Error: locator.fill: Test timeout of 30000ms exceeded.\nCall log:\n  - waiting for locator('#nombre')\n\n   at ..\\tests\\pages\\text.page.ts:36\n\n  34 |   // Acciones públicas\n  35 |   async ingresarNombres(nombres: string) {\n> 36 |     await this.campoNombres().fill(nombres);\n     |                               ^\n  37 |   }\n  38 |\n  39 |   async ingresarApellidos(apellidos: string) {\n\n    at TextPage.ingresarNombres (C:\\Users\\User\\Downloads\\Proyecto2\\tests\\pages\\text.page.ts:36:31)\n    at Object.<anonymous> (C:\\Users\\User\\Downloads\\Proyecto2\\tests\\steps\\formulario.step.ts:96:20)\n    at C:\\Users\\User\\Downloads\\Proyecto2\\.features-gen\\tests\\features\\formulario.feature.spec.js:25:7"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 23,
+            "name": "apellidos \"Perez\"",
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 24,
+            "name": "Selecciono los pasatiempos que me caracterizan",
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 25,
+            "name": "Selecciono al género que pertenezco",
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 26,
+            "name": "Digito mi Numero de Telefono \"1234567890\"",
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 27,
+            "name": "Digito mi Correo Electrónico \"juan@example.com\"",
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 28,
+            "name": "Selecciono Departamento de nacimiento \"LIMA\"",
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 29,
+            "name": "Selecciono Ciudad de nacimiento \"LIMA\"",
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 30,
+            "name": "Selecciono alguna opción de Comandos de Selenium \"Wait Commands\"",
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 31,
+            "name": "Cargo un documento con el nombre \"firma.png\"",
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 32,
+            "name": "Presiono en botón Enviar",
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "failed",
+              "duration": 176000000,
+              "error_message": "Test timeout of 30000ms exceeded."
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@outline",
+            "line": 19
+          }
+        ],
+        "type": "scenario",
+        "retried": 0
+      },
+      {
+        "description": "",
+        "id": "registro-de-formulario-novus-technology;completar-los-datos-en-el-formulario-correctamente",
+        "keyword": "Scenario Outline",
+        "line": 36,
+        "name": "Completar los datos en el formulario correctamente",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 21,
+            "name": "accedo a la web de registro de Novus Technology",
+            "result": {
+              "status": "passed",
+              "duration": 2285000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 22,
+            "name": "Digito mis \"Jorge\"",
+            "result": {
+              "status": "failed",
+              "duration": 23801000000,
+              "error_message": "Error: locator.fill: Test timeout of 30000ms exceeded.\nCall log:\n  - waiting for locator('#nombre')\n\n   at ..\\tests\\pages\\text.page.ts:36\n\n  34 |   // Acciones públicas\n  35 |   async ingresarNombres(nombres: string) {\n> 36 |     await this.campoNombres().fill(nombres);\n     |                               ^\n  37 |   }\n  38 |\n  39 |   async ingresarApellidos(apellidos: string) {\n\n    at TextPage.ingresarNombres (C:\\Users\\User\\Downloads\\Proyecto2\\tests\\pages\\text.page.ts:36:31)\n    at Object.<anonymous> (C:\\Users\\User\\Downloads\\Proyecto2\\tests\\steps\\formulario.step.ts:96:20)\n    at C:\\Users\\User\\Downloads\\Proyecto2\\.features-gen\\tests\\features\\formulario.feature.spec.js:40:7"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 23,
+            "name": "apellidos \"Perez\"",
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 24,
+            "name": "Selecciono los pasatiempos que me caracterizan",
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 25,
+            "name": "Selecciono al género que pertenezco",
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 26,
+            "name": "Digito mi Numero de Telefono \"1234567890\"",
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 27,
+            "name": "Digito mi Correo Electrónico \"jorge@example.com\"",
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 28,
+            "name": "Selecciono Departamento de nacimiento \"LIMA\"",
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 29,
+            "name": "Selecciono Ciudad de nacimiento \"LIMA\"",
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 30,
+            "name": "Selecciono alguna opción de Comandos de Selenium \"Wait Commands\"",
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 31,
+            "name": "Cargo un documento con el nombre \"pantalla.png\"",
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 32,
+            "name": "Presiono en botón Enviar",
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "failed",
+              "duration": 253000000,
+              "error_message": "Test timeout of 30000ms exceeded."
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@outline",
+            "line": 19
+          }
+        ],
+        "type": "scenario",
+        "retried": 0
+      },
+      {
+        "description": "",
+        "id": "registro-de-formulario-novus-technology;completar-los-datos-en-el-formulario-correctamente",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "Completar los datos en el formulario correctamente",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "accedo a la web de registro de Novus Technology",
+            "result": {
+              "status": "passed",
+              "duration": 1336000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "Digito mis nombres",
+            "result": {
+              "status": "failed",
+              "duration": 28161000000,
+              "error_message": "Error: locator.fill: Test timeout of 30000ms exceeded.\nCall log:\n  - waiting for locator('#nombre')\n\n   at ..\\tests\\pages\\text.page.ts:36\n\n  34 |   // Acciones públicas\n  35 |   async ingresarNombres(nombres: string) {\n> 36 |     await this.campoNombres().fill(nombres);\n     |                               ^\n  37 |   }\n  38 |\n  39 |   async ingresarApellidos(apellidos: string) {\n\n    at TextPage.ingresarNombres (C:\\Users\\User\\Downloads\\Proyecto2\\tests\\pages\\text.page.ts:36:31)\n    at Object.<anonymous> (C:\\Users\\User\\Downloads\\Proyecto2\\tests\\steps\\formulario.step.ts:16:20)\n    at C:\\Users\\User\\Downloads\\Proyecto2\\.features-gen\\tests\\features\\formulario.feature.spec.js:8:5"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "apellidos",
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "Selecciono los pasatiempos que me caracterizan",
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "Selecciono al género que pertenezco",
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "Digito mi Numero de Telefono",
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "Digito mi Correo Electrónico",
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 13,
+            "name": "Selecciono Departamento de nacimiento",
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 14,
+            "name": "Selecciono Ciudad de nacimiento",
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 15,
+            "name": "Selecciono alguna opción de Comandos de Selenium",
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 16,
+            "name": "Cargo un documento",
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 17,
+            "name": "Presiono en botón Enviar",
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "failed",
+              "duration": 128000000,
+              "error_message": "Test timeout of 30000ms exceeded."
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@declarativo",
+            "line": 3
+          }
+        ],
+        "type": "scenario",
+        "retried": 0
+      },
+      {
+        "description": "",
+        "id": "registro-de-formulario-novus-technology;completar-los-datos-en-el-formulario-correctamente",
+        "keyword": "Scenario Outline",
+        "line": 35,
+        "name": "Completar los datos en el formulario correctamente",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 21,
+            "name": "accedo a la web de registro de Novus Technology",
+            "result": {
+              "status": "passed",
+              "duration": 1397000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 22,
+            "name": "Digito mis \"Juan\"",
+            "result": {
+              "status": "failed",
+              "duration": 28166000000,
+              "error_message": "Error: locator.fill: Test timeout of 30000ms exceeded.\nCall log:\n  - waiting for locator('#nombre')\n\n   at ..\\tests\\pages\\text.page.ts:36\n\n  34 |   // Acciones públicas\n  35 |   async ingresarNombres(nombres: string) {\n> 36 |     await this.campoNombres().fill(nombres);\n     |                               ^\n  37 |   }\n  38 |\n  39 |   async ingresarApellidos(apellidos: string) {\n\n    at TextPage.ingresarNombres (C:\\Users\\User\\Downloads\\Proyecto2\\tests\\pages\\text.page.ts:36:31)\n    at Object.<anonymous> (C:\\Users\\User\\Downloads\\Proyecto2\\tests\\steps\\formulario.step.ts:96:20)\n    at C:\\Users\\User\\Downloads\\Proyecto2\\.features-gen\\tests\\features\\formulario.feature.spec.js:25:7"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 23,
+            "name": "apellidos \"Perez\"",
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 24,
+            "name": "Selecciono los pasatiempos que me caracterizan",
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 25,
+            "name": "Selecciono al género que pertenezco",
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 26,
+            "name": "Digito mi Numero de Telefono \"1234567890\"",
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 27,
+            "name": "Digito mi Correo Electrónico \"juan@example.com\"",
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 28,
+            "name": "Selecciono Departamento de nacimiento \"LIMA\"",
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 29,
+            "name": "Selecciono Ciudad de nacimiento \"LIMA\"",
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 30,
+            "name": "Selecciono alguna opción de Comandos de Selenium \"Wait Commands\"",
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 31,
+            "name": "Cargo un documento con el nombre \"firma.png\"",
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 32,
+            "name": "Presiono en botón Enviar",
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "failed",
+              "duration": 120000000,
+              "error_message": "Test timeout of 30000ms exceeded."
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@outline",
+            "line": 19
+          }
+        ],
+        "type": "scenario",
+        "retried": 0
+      },
+      {
+        "description": "",
+        "id": "registro-de-formulario-novus-technology;completar-los-datos-en-el-formulario-correctamente",
+        "keyword": "Scenario Outline",
+        "line": 36,
+        "name": "Completar los datos en el formulario correctamente",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 21,
+            "name": "accedo a la web de registro de Novus Technology",
+            "result": {
+              "status": "passed",
+              "duration": 1409000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 22,
+            "name": "Digito mis \"Jorge\"",
+            "result": {
+              "status": "failed",
+              "duration": 28137000000,
+              "error_message": "Error: locator.fill: Test timeout of 30000ms exceeded.\nCall log:\n  - waiting for locator('#nombre')\n\n   at ..\\tests\\pages\\text.page.ts:36\n\n  34 |   // Acciones públicas\n  35 |   async ingresarNombres(nombres: string) {\n> 36 |     await this.campoNombres().fill(nombres);\n     |                               ^\n  37 |   }\n  38 |\n  39 |   async ingresarApellidos(apellidos: string) {\n\n    at TextPage.ingresarNombres (C:\\Users\\User\\Downloads\\Proyecto2\\tests\\pages\\text.page.ts:36:31)\n    at Object.<anonymous> (C:\\Users\\User\\Downloads\\Proyecto2\\tests\\steps\\formulario.step.ts:96:20)\n    at C:\\Users\\User\\Downloads\\Proyecto2\\.features-gen\\tests\\features\\formulario.feature.spec.js:40:7"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 23,
+            "name": "apellidos \"Perez\"",
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 24,
+            "name": "Selecciono los pasatiempos que me caracterizan",
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 25,
+            "name": "Selecciono al género que pertenezco",
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 26,
+            "name": "Digito mi Numero de Telefono \"1234567890\"",
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 27,
+            "name": "Digito mi Correo Electrónico \"jorge@example.com\"",
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 28,
+            "name": "Selecciono Departamento de nacimiento \"LIMA\"",
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 29,
+            "name": "Selecciono Ciudad de nacimiento \"LIMA\"",
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 30,
+            "name": "Selecciono alguna opción de Comandos de Selenium \"Wait Commands\"",
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 31,
+            "name": "Cargo un documento con el nombre \"pantalla.png\"",
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 32,
+            "name": "Presiono en botón Enviar",
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "failed",
+              "duration": 171000000,
+              "error_message": "Test timeout of 30000ms exceeded."
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@outline",
+            "line": 19
+          }
+        ],
+        "type": "scenario",
+        "retried": 0
+      }
+    ],
+    "id": "chromium-›-registro-de-formulario-novus-technology",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Registro de formulario Novus Technology",
+    "tags": [],
+    "uri": "tests\\features\\formulario.feature"
+  }
+]
